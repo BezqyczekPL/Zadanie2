@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 export default () => {
   return (
     <div>
-      Nazwa programu: MultiFab <br> </br>
-      Dawid Nicpoń <br></br>
-      Grupa 2.3 <br></br>
+      <div> Nazwa programu: MultiFab </div>
+      <div> Dawid Nicpoń </div>
+      <div> Grupa 2.3 </div>
       <Link to="/">Wróć do pierwszej strony</Link>
     </div>
   );
